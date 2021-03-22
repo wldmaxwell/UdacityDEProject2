@@ -1,3 +1,23 @@
+<!-----
+NEW: Check the "Suppress top comment" option to remove this info from the output.
+
+Conversion time: 1.009 seconds.
+
+
+Using this Markdown file:
+
+1. Paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
+
+Conversion notes:
+
+* Docs to Markdown version 1.0β29
+* Mon Mar 22 2021 09:10:13 GMT-0700 (PDT)
+* Source doc: Udacity Project two Data Model Cassandra Readme
+----->
+
 
 **Project Two: Data Modelling with Apache Cassandra**
 
@@ -72,6 +92,7 @@ The Sparkify analytics database (Sparkify) schema is aimed to answer:
 1. What was the artist, song, and song length during a session?
 2. What artist, song, and user name during a user session ?
 3. What users are listening to a certain song?
+
 *   **Song_Sessions Table**
     *   6820 rows
     *   Artist Text
