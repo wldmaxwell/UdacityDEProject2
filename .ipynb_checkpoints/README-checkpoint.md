@@ -97,25 +97,24 @@ The Sparkify analytics database (Sparkify) schema is aimed to answer:
 2. What artist, song, and user name during a user session ?
 3. What users are listening to a certain song?
 *   **Song_Sessions Table**
-    *   6820 rows
+    *   Session_id int
+    *   Item_In_Session int
     *   Artist Text
     *   Song_Title Text
     *   Song_Length decimal
-    *   Session_id int
-    *   Item_In_Session int
     *   Primary Key (session_id, item_in_session)
 *   **User_Artist_Session Table**
+    *   User_id int
+    *   Session_id int
+    *   Item_in_session int
     *   Artist Text
     *   Song_Title Text
     *   First_Name Text
     *   Last_Name Text
-    *   Item_In_Session int
-    *   User_id int
-    *   Session_Id int
     *   Primary Key ((user_id, session_id), item_in_session)   
 *   **User_Listen_History**
-    *   First_Name Text
-    *   Last_Name Text
     *   Song_Title Text
     *   User_Id int
+    *   First_Name Text
+    *   Last_Name Text
     *   Primary Key (song_title, user_id)	
